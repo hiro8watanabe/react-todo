@@ -17,17 +17,20 @@ const inputStyle = {
 };
 
 export const InputTodo = (props) => {
-  const { todoText, onChange, onClick } = props;
+  const { todoText, onChange, onClick, disabled } = props;
   return (
     <div style={sectionStyle}>
       <input
+        disabled={disabled}
         style={inputStyle}
         type="text"
         placeholder="TODOを入力"
         value={todoText}
         onChange={onChange}
       />
-      <button onClick={onClick}>追加</button>
+      <button disabled={disabled} onClick={onClick}>
+        追加
+      </button>
     </div>
   );
 };
