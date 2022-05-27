@@ -7,13 +7,6 @@ body {
   font-family: sans-serif;
 }
 
-input {
-  border-radius: 16px;
-  border: none;
-  padding: 6px 16px;
-  outline: none;
-}
-
 button {
   border-radius: 16px;
   border: none;
@@ -22,41 +15,19 @@ button {
   display: inline-block;
 }
 
-p {
-  margin-right: 8px;
-}
-
 button:hover {
-  background-color: #ff7fff;
+  background-color: #234bfc;
   color: #fff;
   cursor: pointer;
 }
 
-.input-area {
-  background-color: #c1ffff;
-  width: 400px;
-  height: 30px;
-  padding: 8px;
-  margin: 8px auto;
-  border-radius: 8px;
+p {
+  margin-right: 8px;
 }
 
-.incomplete-area {
-  background-color: #c6ffe2;
-  width: 400px;
-  min-height: 200px;
-  padding: 8px;
-  margin: 8px auto;
-  border-radius: 8px;
-}
-
-.complete-area {
-  background-color: #ffffe0;
-  width: 400px;
-  min-height: 200px;
-  padding: 8px;
-  margin: 8px auto;
-  border-radius: 8px;
+.title {
+  padding: 12px;
+  margin-bottom: 8px;
 }
 
 .title {
